@@ -6,7 +6,7 @@ def get_weather_forecast():
     url = "https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=59.4370&lon=24.7536"
     
     headers = {
-        'User-Agent': 'WeatherApp/1.0'
+        'User-Agent': 'WeatherApp/1.0 github.com/trondemynde/weatherApp1.0'
     }
     
     try:
